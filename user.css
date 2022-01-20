@@ -1,0 +1,87 @@
+<style>
+	body {
+	  margin: 0;
+	  background: #f2f2f2;
+	}
+	table {
+		font-size: 22px;
+	}
+	td {
+		padding: 15px;
+	}
+	#td1
+	{
+		background-image: linear-gradient(to left, #0F2027, #203A43,#2C5364);
+		color: white;
+		border: 10px;
+		margin-top: -10px;
+		padding: 10px;
+		text-align: center;
+	}
+	ul {
+	  	margin: 0;
+	  	padding: 0;
+	  	width: 22%;
+	  	font-size: 24px;
+	  	background-image: linear-gradient(to left, #0F2027, #203A43,#2C5364);
+	  	text-decoration: none;
+	  	position: fixed;
+	  	height: 100%;
+	  	overflow: auto;
+	}
+	li {
+		color: white;
+	}
+	li a {
+	  	display: block;
+	  	color: white;
+	  	padding: 8px 16px;
+	  	text-decoration: none;
+	}
+
+
+	li a.active {
+			background-color: #e6b800;
+
+	  	color: white;
+	}
+
+	li a:hover:not(.active) {
+	  background-image: linear-gradient(to left, #0F2027, #203A43,#2C5364);
+	  	color: white;
+	  	text-decoration: underline;
+	}
+
+	.basic_box {
+		border: 1px solid #ccc;
+		border-radius: 15px;
+		margin: auto;
+		width: 600px;
+		padding: 50px;
+		box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+	}
+	.decor {
+		font-family: Times New Roman;
+	}
+  .box table,
+  .box th,
+  .box  td {
+  border: 1px solid black;
+  padding: 5px;
+  }
+
+  .basic_box button {
+  background-image: linear-gradient(to left, #0F2027, #203A43,#2C5364);
+  border: none;
+  color: white;
+  width: auto;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  position: relative;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
